@@ -3,14 +3,14 @@
 }
 body {
   margin: 0;
-  padding-top: 700px;
 }
+
 header {
   height: 800px;
   background: #f07057;
 }
 .main-nav,
-main {
+main, footer {
   position: relative; 
 }
 .main-nav {
@@ -28,7 +28,6 @@ header,
 }
 main {
   flex-direction: column;
-  height: 1000px;
   background-color: white;
 
 }
@@ -114,20 +113,51 @@ nav{
 
 main{margin-top: 80px;}
 
+footer{
+    background-color: white;
+    border-top: solid black 3px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.footernav{
+    display: flex;
+    justify-content: space-around
+}
 
-@media screen and (max-width: 30em){
+.footernav > ul{list-style: none;}
+
+.brand{display: flex;
+    padding: 20px;
     
 }
 
-@media screen and (min-width: 30.01em) and (max-width: 48em){
+.brandimg{
+    width: 50%;
+    height: 50%;
+}
+
+.itemcontainer{
+    display: flex;
+    margin-bottom: -200px
+
+}
+
+.item{
+   min-width: 50%;
+    max-width: 50%;
+    min-height: 63%;
+    max-height: 63%;
    
 }
 
-@media screen and (min-width: 48.01em) and (max-width: 60em){
-    
+.product-page{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
-@media screen and (min-width: 60.01em){
-    
+h2, p{
+    text-transform: uppercase;
 }
