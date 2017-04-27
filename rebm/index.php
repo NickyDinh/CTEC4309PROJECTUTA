@@ -1,6 +1,4 @@
-<?php
-include (“main.inc.php”);
-?>
+<?php include('main.inc.php');?>
 <html>
 <head>
   <meta charset="utf-8">
@@ -18,12 +16,38 @@ include (“main.inc.php”);
   </div>
 </header>
 
-<?php include('main.inc.php');?>
-
 <body>
+ 
   <main>
-      
+      <div class="brand">
+        <a class="brandimg"> <img src="usestamp.png"></a>
+         <div class="itemcontainer">
+             <a class="img-link" href="productpage.html"><img class="item" src="bape1.jpeg"></a>
+               <a class="img-link" href="productpage2.html"><img class="item" src="bape2.JPG"></a>
+         </div>
+      </div>
+     <div class="brand">
+         <div class="itemcontainer">
+             <a class="img-link" href="productpage3.html"><img class="item" src="guess1.jpg"></a>
+             <a class="img-link">  <img class="item" src="guess2.jpg"></a>
+         </div>
+        <a class="brandimg"> <img  src="usebb.png"></a>
+      </div>
+      <div class="brand">
+        <a class="brandimg"> <img src="slideshow_1.jpg"></a>
+         <div class="itemcontainer">
+            <a class="img-link"> <img class="item" src="enfants1.jpeg"></a>
+              <a class="img-link"> <img class="item" src="enfants2.jpeg"></a>
+         </div>
+      </div>
+
   </main>
+  <div class="sign-up-discount">
+ <h3>Sign up for news and get 15% off</h3>
+      <div class="email-thing">
+      <input type="email" class="email"><button>Sign up</button>
+      </div>
+  </div>
     
   <?php echo $footer; ?>
    
