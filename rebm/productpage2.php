@@ -1,7 +1,7 @@
 <?php include('main.inc.php');?>
 <!DOCTYPE html>
 <html>
-<?php echo makeHead('index'); ?>
+<?php echo makeHead('product'); ?>
      <?php echo $nav; ?>
 
 <body>

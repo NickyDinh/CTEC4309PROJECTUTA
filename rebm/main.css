@@ -202,3 +202,10 @@ padding: 10px;
 }
 
 .itemdes{width: 300px;}
+
+.blkmkt{display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+    align-content: center;
+}

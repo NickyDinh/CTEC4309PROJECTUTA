@@ -9,7 +9,7 @@ function makeHead ($page)
 	} 
 	else 
 	{
-		$class = 'main.css';
+		$href = 'main.css';
 	}
 
 	$head = "<head>
@@ -75,9 +75,9 @@ $footer ="<footer>
      </ul> 
      <ul>
         <li><h3>Information</h3></li>
-         <li><a href='privacy.html'>Privacy Policy</a></li>
+         <li><a href='privacy.php'>Privacy Policy</a></li>
          <li><a href=''>Terms Of Service</a></li>
-         <li><a href='return.html'>Return Policy</a></li>
+         <li><a href='return.php'>Customer Care</a></li>
      </ul> 
      <ul>
         <li><h3>Social Media</h3></li>
