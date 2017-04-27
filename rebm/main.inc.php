@@ -1,9 +1,33 @@
 <?php
 
+function makeHead ($page) 
+{
+	
+	if ($page == 'index') 
+	{
+		$href = 'index.css';
+	} 
+	else 
+	{
+		$class = 'main.css';
+	}
+
+	$head = "<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width'>
+     <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css' rel='stylesheet' type='text/css' />
+     <link rel='stylesheet' href='$href'>
+    <title>Black Market USA </title>
+</head>
+";
+
+	return $head;
+}
+
 $nav ="<nav class='main-nav'>
     <a href='index.html'><img src='logo.png'></a>
  <div class='navbar'>
- <a class='list' href='index.html'>Home</a>
+ <a class='list' href='index.php'>Home</a>
  <div class='dropdown'>
  <a href='#brands' onclick='myFunction()' class='dropbtn'>Designers</a>
   <div id='myDropdown' class='dropdown-content'>
@@ -64,5 +88,15 @@ $footer ="<footer>
       </div>
      <h6>THIS IS FOR USE FOR AARON AND NICKY'S CTEC4309 PROJECT</h6>
   </footer>";
+
+$script ="<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='navbar.js'></script>";
+
+$signup ="<div class='sign-up-discount'>
+ <h3>Sign up for news and get 15% off</h3>
+      <div class='email-thing'>
+      <input type='email' class='email'><button>Sign up</button>
+      </div>
+  </div>"
 
 ?>
