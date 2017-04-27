@@ -62,7 +62,7 @@ $footer ="<footer>
          <li>Twitter</li>
      </ul> 
       </div>
-     <h6>THIS IS FOR USE FOR AARON AND NICKY'S CTEC4309 PROJECT</h6>
+     <h6>THIS IS FOR USE FOR AARON AND NICKYS CTEC4309 PROJECT</h6>
   </footer>";
 
 ?>

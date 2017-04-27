@@ -10,7 +10,7 @@ include (“main.inc.php”);
     <title>Black Market USA </title>
 </head>
 
-     <?php print $nav ?>
+     <?php echo $nav; ?>
       
 <header>
  <div class="container">
@@ -25,7 +25,7 @@ include (“main.inc.php”);
       
   </main>
     
-  <?php print $footer ?>
+  <?php echo $footer; ?>
    
 
 </body>

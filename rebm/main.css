@@ -3,7 +3,8 @@
 }
 body {
   margin: 0;
-  padding-top: 700px;
+  background-color: whitesmoke;
+    text-transform: uppercase;
 }
 
 header {
@@ -18,7 +19,7 @@ main, footer {
   background: #fff;
   height: 80px;
   z-index: 150;
-  margin-bottom: -80px;
+  margin-bottom: -50px;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 header,
@@ -29,7 +30,8 @@ header,
 }
 main {
   flex-direction: column;
-  background-color: white;
+  margin-top: px;
+  background-color: whitesmoke;
 
 }
 
@@ -51,6 +53,7 @@ nav{
     display: flex;
     justify-content:space-between;
     padding: 10px;
+    font-weight: bold;
 }
 
 .navbar{
@@ -60,7 +63,7 @@ nav{
     margin: 10px
 }
 
-.navbar a{
+.navbar a, a{
     text-decoration: none;
     color: black;    
 }
@@ -117,9 +120,10 @@ main{margin-top: 80px;}
 footer{
     background-color: white;
     border-top: solid black 3px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    font-size: 12px;
 }
 
 .footernav{
@@ -129,26 +133,72 @@ footer{
 
 .footernav > ul{list-style: none;}
 
-.brand{display: flex;
-    padding: 20px;
+.productimg{box-shadow: 0 2px 3px rgba(0,0,0,.4);
+margin-right: 50px;}
+
+.product-page{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.designer-list{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.designer-list > ol{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+}
+
+.five{margin: 25px;}
+
+.alphabet > li{margin: 15px;
+font-size: 17px;}
+
+.alphabet{list-style: none;
+padding: 5px;}
+
+h2, p{
+    text-transform: uppercase;
+}
+
+.quantity{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase
+}
+
+.privacy-title{
+    border-bottom: 1px solid black;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+#adidas{text-transform: lowercase;}
+
+.privacy-policy > li{
     
 }
 
-.brandimg{
-    width: 50%;
-    height: 50%;
+.privacy-policy > li > p{
+margin: 0px;
+padding: 10px;
+    
 }
 
-.itemcontainer{
+.privacy-policy{
+    list-style: none;
     display: flex;
-    margin-bottom: -200px
-
+    flex-direction: column;
+    font-size: 14px;
+    padding: 50px;
+    margin-top: -50px;
+    
 }
 
-.item{
-   min-width: 50%;
-    max-width: 50%;
-    min-height: 63%;
-    max-height: 63%;
-   
-}
+.itemdes{width: 300px;}
