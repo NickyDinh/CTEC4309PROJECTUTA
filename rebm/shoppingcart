@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> CTEC 4309 Class Working File: Posting a Message </TITLE>
+</HEAD>
+
+
+<BODY>
+CTEC 4309 Class Working File 
+<hr>
+    
+    
+<h2>Post a Message</h2>
+
+<hr size="1">
+
+    
+    
+Item: 
+    
+    
+<h3>Billing Address</h3>
+* required fields
+<form action= "project.php" method="post">
+First Name * : <input type="text" name="FirstName1"><br/>
+Last Name * : <input type="text" name="LastName1"><br/>
+Email: <input type="text" name="Email"><br/>
+Billing Address * : <input type="text" name="BillAddrss"><br/>
+City *  <input list="City1" name="City1">
+<datalist id="City1">
+<option value="Dallas">
+<option value="Fort Worth">
+<option value="Arlington">
+</datalist> <br/>
+State * : <input type="text" name="State1"><br/>
+Zip	* : <input type="text" name="Zip1"><br/>
+Credit Card Type * : <input type="text" name="CardType"><br/>
+Credit Number * : <input type="text" name="CardNumber"><br/>
+Expiration Date * : <input type="text" name="ExpDate"><br/>
+    
+<h3>Shipping Address</h3>
+First Name : <input type="text" name="FirstName2"><br/>
+Last Name : <input type="text" name="LastName2"><br/>
+Shipping Address * : <input type="text" name="ShipAddrss"><br/>
+City *  <input list="City2" name="City2">
+<datalist id="City2">
+<option value="Dallas">
+<option value="Fort Worth">
+<option value="Arlington">
+</datalist> <br/>
+State : <input type="text" name="State2"><br/>
+Zip	: <input type="text" name="Zip2"><br/>
+Delivery Comments : <br/><textarea name="comment" rows="5" cols="40"></textarea><br>
+<input type="Submit" name="SubmitThis" value="Preview">
+</form>
+
+
+
+</BODY>
+</HTML>
