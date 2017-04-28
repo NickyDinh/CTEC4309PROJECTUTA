@@ -6,12 +6,15 @@
 
  
 <body>
-    
-<main class="orderConfirmation">
+   
+<main>
+<div class="title">
+           <h2>Order confirmation</h2>
+       </div> 
+       
+       <div class="orderConfirmation">
 <p>
-<h3>Order Confirmation</h3>
-
-	<div class="confirmationMsg">
+	<div class="confirmation">
 	<p>Thank you for your purchase of <a href="productpage.php" class="confirmProduct">A Bathing  Ape Green Camo Bapesta Tee</a>! </p>
 	Share your purchase with your friends on Facebook, Instagram or Twitter to recieve a 10% discount on your next order! 
 	<div class="share">
@@ -24,16 +27,16 @@
 	</div>
 	</div>
 	
-	<div class="confirmationMsg">
+	<div class="confirmation">
 	Your order is currently being proccesed and we will be shipping it out shortly!
         <p>A confirmation <a class="confirmProduct" href='mockup_email.php'>email</a> has been sent to your email account. Included in your confirmation email will be your tracking information for you to stay up to date with your package!</p> 
 	</div>
 
-	<div class="confirmationMsg">
+	<div class="confirmation">
 	To stay up to date with your package your order number is: x1234567890.  To check your order status, please follow the link provided
 	<a class="confirmProduct" href="mockup_orderTracking.php">Order Tracking Page</a>
 	</div>
-
+</div>
 </main>
 
 
