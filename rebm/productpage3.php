@@ -25,7 +25,7 @@ TWO PACK OF HATS, EMBROIDERED LOGO ON FRONT, COTTON STRAP, GUESS LOGO ON BACK.
 MADE IN CHINA
      </p>
      <input type="number">
-     <button class="quantity">Add to cart</button>
+     <a href="shoppingcart.php"><button class="addCart">Add to cart</button></a>
      </div>
      </div>
      

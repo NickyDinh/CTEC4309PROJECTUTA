@@ -25,7 +25,7 @@ function makeHead ($page)
 }
 
 $nav ="<nav class='main-nav'>
-    <a href='index.html'><img src='logo.png'></a>
+    <a href='index.php'><img src='logo.png'></a>
  <div class='navbar'>
  <a class='list' href='index.php'>Home</a>
  <div class='dropdown'>
@@ -35,7 +35,7 @@ $nav ="<nav class='main-nav'>
     <a href=''>adidas</a>
     <a href=''>A Bathing Ape</a>
     <a href=''>Gosha Rubchinsky</a>
-    <a href='brands.html'>All Designers</a>
+    <a href='designers.php'>All Designers</a>
     </div>
     <div class='brands'>
     <a href=''>Yeezy</a>
@@ -68,22 +68,21 @@ $footer ="<footer>
    <div class='footernav'>
     <ul>
         <li><h3>Navigation</h3></li>
-         <li><a href='index.html'>Home</a></li>
-         <li><a href='brands.html'>Designers</a></li>
+         <li><a href='index.php'>Home</a></li>
+         <li><a href='desigers.php'>Designers</a></li>
          <li><a href=''>Shop</a></li>
          
      </ul> 
      <ul>
         <li><h3>Information</h3></li>
          <li><a href='privacy.php'>Privacy Policy</a></li>
-         <li><a href=''>Terms Of Service</a></li>
          <li><a href='return.php'>Customer Care</a></li>
      </ul> 
      <ul>
         <li><h3>Social Media</h3></li>
-         <li>Facebook</li>
-         <li>Instagram</li>
-         <li>Twitter</li>
+         <li><a href='https://www.facebook.com/BLKMKTus/'>Facebook</a></li>
+         <li><a href='https://twitter.com/blkmktus'>Instagram</a></li>
+         <li><a href='https://www.instagram.com/blackmarketusa/'>Twitter</a></li>
      </ul> 
       </div>
      <h6>THIS IS FOR USE FOR AARON AND NICKY'S CTEC4309 PROJECT</h6>

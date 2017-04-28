@@ -166,14 +166,14 @@ h2, p{
     text-transform: uppercase;
 }
 
-.quantity{
+.addCart{
     background-color: black;
     color: white;
     border-radius: 5px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
-.privacy-title{
+.title{
     border-bottom: 1px solid black;
     margin: 20px;
     background-color: whitesmoke;
@@ -209,3 +209,59 @@ justify-content: center;
     align-items: center;
     align-content: center;
 }
+
+.confirmationMsg{
+    font-size: 13px; padding: 20px;
+    margin: 20px;
+    border: 1px solid black
+}
+
+.orderConfirmation{ 
+    padding: 30px;
+}
+
+.confirmProduct{
+    text-decoration: underline
+}
+
+.share{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 10px;}
+
+.productShare{height: 200px}
+
+.social{height: 50px;
+margin: 10px;}
+
+.cartImg{height: 100px;
+padding: 2px;}
+
+.cart{display: flex;
+width: 75%;
+justify-content: center;
+align-items: center;
+margin: 10px;
+padding: 20px;
+}
+td, th{padding: 20px;
+text-align: center;
+align-content: center;
+justify-content: center}
+
+.shoppingCart{display: flex;
+justify-content: center;
+}
+
+.quantity{text-align: center;
+width: 50px;}
+
+th{border-bottom: 1px solid;}
+
+.item{display: flex;
+align-items: center;
+}
+
+.purchaseBtn{margin-left: 880px;
+    padding: 10px;}

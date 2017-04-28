@@ -9,7 +9,7 @@
  
   <main>
     <div class="privacy">
-       <div class="privacy-title">
+       <div class="title">
            <h2>PRIVACY POLICY</h2>
        </div>
         <ul class="privacy-policy">

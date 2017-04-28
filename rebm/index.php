@@ -16,7 +16,7 @@
       <div class="brand">
         <a class="brandimg"> <img src="usestamp.png"></a>
          <div class="itemcontainer">
-             <a class="img-link" href="productpage.html"><img class="item" src="bape1.jpeg"></a>
+             <a class="img-link" href="productpage.php"><img class="item" src="bape1.jpeg"></a>
                <a class="img-link" href="productpage2.php"><img class="item" src="bape2.JPG"></a>
          </div>
       </div>

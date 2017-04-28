@@ -9,7 +9,7 @@
  
 <main>
     <div class="privacy">
-       <div class="privacy-title">
+       <div class="title">
            <h2>Customer Care</h2>
        </div>
        <div class="blkmkt">
@@ -22,7 +22,7 @@ ARLINGTON, TX 76015<br>
       <p>5509 W LOVERS LN STE B<br>
 DALLAS, TX 75209<br>
 214.351.1313</p>
-      <p>2700 ALTON PKWY STE 223<br>
+      <p>2700 ALTON PKWY STE 223<br>    
 IRVINE, CA 92606<br>
 949.757.1313</p>
       <a href="mailto:info@blkmkt.us">INFO@BLKMKT.US</a>
