@@ -7,7 +7,7 @@
  
   <main>
     <div class="product-page">
-     <img class="productimg"
+     <img class="productimg" alt="A Bathing Ape/Bape Green Camo Bapesta Tee in Black"
      src="bape1.jpeg">
      <div class="product-des">
      <h3>A Bathing Ape Green Camo Bapesta Tee</h3>

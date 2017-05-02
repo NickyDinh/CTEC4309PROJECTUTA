@@ -9,9 +9,9 @@
   <main>
     <div class="product-page">
      <img class="productimg"
-     src="guess1.jpg">
+     src="guess1.jpg" alt="Guess Club X ASAP Rocky Guess club cap in Apricot">
      <div class="product-des">
-     <h3>GUESS X A$AP ROCKY GUESS CLUB CAP (APRICOT)
+     <h3>GUESS CLUB X A$AP ROCKY GUESS CLUB CAP (APRICOT)
 
 </h3>
      <h1>$100</h1>

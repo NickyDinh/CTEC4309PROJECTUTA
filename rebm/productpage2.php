@@ -9,7 +9,7 @@
   <main>
     <div class="product-page">
      <img class="productimg"
-     src="bape2.JPG">
+     src="bape2.JPG" alt="A Bathing Ape/Bape Pixel Ape Head Tee in white">
      <div class="product-des">
      <h3>A Bathing Ape Pixel ape head Tee</h3>
      <h1>$100</h1>

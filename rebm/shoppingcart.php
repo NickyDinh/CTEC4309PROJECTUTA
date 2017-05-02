@@ -17,7 +17,7 @@
     <div class="shoppingCart">
 	<table class='cart'>
 		<tr><th>Items</th><th>Quantity</th><th>Price</th><th>Subtotal</th></tr>
-		<tr><td class="item"> <img class="cartImg" src="bape1.jpeg"> A Bathing Ape Green Camo Bapesta Tee</td>
+		<tr><td class="item"> <img class="cartImg" src="bape1.jpeg" alt="A Bathing Ape/Bape Green Camo Bapesta Tee in Black"> A Bathing Ape Green Camo Bapesta Tee</td>
 			<td><input class="quantity" type='number'  value='1'></td><td>$100</td><td>$100</td></tr>
 
 
@@ -25,7 +25,7 @@
 	</table>
 	</div>
 	<div class="purchaseBtn">
-		<a href='mockupInfo.php'><input class="addCart" type='button' name='action' value='Purchase'></a>
+		<a href='verifyinfo.php'><input class="addCart" type='button' name='action' value='Purchase'></a>
 	</div>
 
 	

@@ -10,22 +10,24 @@ function makeHead ($page)
 	else 
 	{
 		$href = 'main.css';
-	}
+	};
 
 	$head = "<head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width'>
+  <meta name='description' content='Offers a selection of the best in contemporary menswear. From the runway to your doorway, shop the newest collections now.'>
      <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css' rel='stylesheet' type='text/css' />
      <link rel='stylesheet' href='$href'>
-    <title>Black Market USA </title>
+    <title>Concept Space & Contemporary Menswear | Black Market USA</title>
+    
 </head>
 ";
 
 	return $head;
-}
+};
 
 $nav ="<nav class='main-nav'>
-    <a href='index.php'><img src='logo.png'></a>
+    <a href='index.php'><img alt='Black Market USA Logo' src='logo.png'></a>
  <div class='navbar'>
  <a class='list' href='index.php'>Home</a>
  <div class='dropdown'>
@@ -49,7 +51,7 @@ $nav ="<nav class='main-nav'>
     </div>
      </div>
      </div>
-  <a href='' onclick='myFunction2()' class='dropbtn2'>Shop</a>
+  <a href='#shop' hr onclick='myFunction2()' class='dropbtn2'>Shop</a>
   <div id='myDropdown2' class='dropdown-content2'>
    <div class='shop'>
     <a href=' '>Accessories</a>
@@ -58,7 +60,7 @@ $nav ="<nav class='main-nav'>
     <a href=' '>Footwear</a>
     </div>    
  </div>
-  <a class='list' href='#'>Shopping Cart</a>
+  <a class='list' href='shoppingcart.php'>Shopping Cart</a>
     
 
      </div>
@@ -96,6 +98,6 @@ $signup ="<div class='sign-up-discount'>
       <div class='email-thing'>
       <input type='email' class='email'><button>Sign up</button>
       </div>
-  </div>"
+  </div>";
 
 ?>
